@@ -65,10 +65,14 @@ const compareGuess = () =>{
 }
 
 const easyMode = () =>{
-    maxGuess = 10;
+    maxGuess = 12;
     startGame();
 }
 const hardMode = () =>{
     maxGuess = 5;
+    startGame();
+}
+const mediumMode = () =>{
+    maxGuess = 8;
     startGame();
 }
